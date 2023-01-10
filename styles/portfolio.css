@@ -163,26 +163,73 @@ section {
 /* resume-title */
 .resume-content {
     display: flex;
+    text-align: left;
+    gap: 24px;
 }
 
-.resume .title {
+.re-title {
     font-weight: 700;
     font-size: 25px;
     color: #474747;
+    margin-bottom: 10px;
 }
 
-.resume .subtitle {
+.subtitle {
     font-weight: 600;
     font-size: 20px;
     color: #757575;
 }
 
-.resume .descr {
+.resume .a-description {
     color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.r-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 0px;
 }
 
 .hrz-line {
-    margin-top: 30px;
-    margin-bottom: 30px;
     border: 1px solid #D1D1D1;
+}
+
+.r-button {
+    margin-top: 50px;
+}
+
+/* contact */
+.contact {
+    display: flex;
+    text-align: left;
+    gap: 100px;
+    background-color: #f8ebe2;
+    padding: 130px 230px;
+}
+
+.contact .contact-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: left;
+}
+
+.contact .c-details {
+    color: #474747;
+    font-size: 16px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+margin-bottom: 24px;
+border: none;
+width: 100% ;padding: 18px 30px;
+
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+gap: 10px;
 }
